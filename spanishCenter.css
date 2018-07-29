@@ -1,5 +1,8 @@
-.col-12{
-  padding:0px;
+.banner .col-12 {
+padding:0px;
+}
+.banner{
+
 }
 .square1 {
   background-color:gray;
