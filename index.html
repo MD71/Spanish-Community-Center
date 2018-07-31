@@ -20,7 +20,6 @@
     <a class="nav-item nav-link active" href="">Home <span class="sr-only">(current)</span></a>
     <a class="nav-item nav-link" href="#">Features</a>
     <a class="nav-item nav-link" href="#">Pricing</a>
-    <a class="nav-item nav-link disabled" href="#">Disabled</a>
   </div>
   </div>
   </nav>
@@ -37,26 +36,56 @@
 		<!-- Start of content rows | Mobile / Desktop-->
 		<div class="row">
 			<div class="col text-center content-1 ">
-        <h4 text-center> Image </h4>
-			</div>
+        <img src="images/350x200.png" class="img-fluid" alt="Responsive image ">
       <div class = "col-12 text-left ">
-      <h4>Title of content</h4>
+      <h4 class = title>Title of content</h4>
       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor tristique vehicula. Ut dictum odio est, quis ultrices arcu pretium eget. Fusce vestibulum lacinia consectetur. Cras maximus eleifend nunc, et.</p>
 		</div>
   </div>
+
+  </div>
   <div class="row">
     <div class="col text-center content-2">
-      <h4 text-center> Image </h4>
+      <img src="images/350x200.png" class="img-fluid" alt="Responsive image ">
 
-    </div>
     <div class = "col-12 text-left">
-    <h4>Title of content</h4>
+    <h4 class = title>Title of content</h4>
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor tristique vehicula. Ut dictum odio est, quis ultrices arcu pretium eget. Fusce vestibulum lacinia consectetur. Cras maximus eleifend nunc, et.</p>
+  </div>
+
   </div>
 </div>
 
 	</div>	<!--END FLUID CONTAINER -->
+<footer>
 
+  <span><h4 class = "text-center">Footer</h4></span>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+      <!-- Identify your business so that you can collect the payments. -->
+      <input type="hidden" name="business"
+          value="donations@kcparkfriends.org">
+
+      <!-- Specify a Donate button. -->
+      <input type="hidden" name="cmd" value="_donations">
+
+      <!-- Specify details about the contribution -->
+      <input type="hidden" name="item_name" value="Friends of the Park">
+      <input type="hidden" name="item_number" value="Fall Cleanup Campaign">
+      <input type="hidden" name="currency_code" value="USD">
+
+      <!-- Display the payment button. -->
+      <input type="image" name="submit"
+      src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+      alt="Donate">
+      <img alt="" width="1" height="1"
+      src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+
+  </form>
+
+
+</footer>
 </body>
 
 </html>
