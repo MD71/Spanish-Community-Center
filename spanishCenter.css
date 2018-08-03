@@ -1,11 +1,22 @@
-.banner .col-12 {
-padding:0px;
+body {
+  background-color: #cccccc;
 }
-.banner{
-padding-bottom: 40px;
+.mission_logo {
+  width: 50%;
+  display: block;
+margin:0 auto;
+}
+.social_media{
+  padding-top:20px;
+}
+.social_media a {
+  font-size: 40px;
+}
+.banner .col-12 {
+padding-top:45px;
 }
 .content-1 {
-padding-top:
+padding-top:100px;
 }
 .content-2 {
 padding: 10px;
@@ -26,7 +37,18 @@ form {
   margin: 0 auto;
   width: 100px;
 }
-
+.sm_sq {
+width: 20px;
+height:20px;
+background-color: red;
+display: inline;
+margin: 10px;
+}
+.credit {
+  text-align:center;
+  font-size:5;
+  color:;
+}
 
 @media (min-width: 768px) {
 
