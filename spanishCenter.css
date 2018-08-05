@@ -1,16 +1,30 @@
 body {
   background-color: #cccccc;
 }
+.icon-heart:hover {
+  text-decoration: none;
+  color:pink;
+}
 .mission_logo {
   width: 50%;
   display: block;
 margin:0 auto;
+}
+.mission_two{
+  padding-top: 15px;
 }
 .social_media{
   padding-top:20px;
 }
 .social_media a {
   font-size: 40px;
+  padding: 20px;
+}
+.icon-heart {
+  color:red;
+}
+.icon-heart a:hover{
+  text-decoration: none;
 }
 .banner .col-12 {
 padding-top:45px;
@@ -20,6 +34,7 @@ padding-top:100px;
 }
 .content-2 {
 padding: 10px;
+padding-bottom: 150px;
 }
 .title {
 padding-top: 10px;
@@ -29,25 +44,17 @@ margin-left:auto;
 }
 
 footer {
-padding-top: 10px;
-background-color: #cccccc;
-height:100px;
+padding-top: 30px;
+background-color: #262729;
+height:300px;
+}
+.footer_notes {
+  color:white;
+
 }
 form {
   margin: 0 auto;
   width: 100px;
-}
-.sm_sq {
-width: 20px;
-height:20px;
-background-color: red;
-display: inline;
-margin: 10px;
-}
-.credit {
-  text-align:center;
-  font-size:5;
-  color:;
 }
 
 @media (min-width: 768px) {
