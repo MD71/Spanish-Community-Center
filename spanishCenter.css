@@ -31,6 +31,7 @@ padding-top:45px;
 }
 .content-1 {
 padding-top:100px;
+
 }
 .content-2 {
 padding: 10px;
@@ -50,13 +51,20 @@ height:300px;
 }
 .footer_notes {
   color:white;
+  margin-left: 10px;
 
 }
-form {
-  margin: 0 auto;
-  width: 100px;
+.description_AP{
+  margin-top: 20px;
 }
-
+.AP_List{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+.hip_banner{
+  margin-bottom: 0px;
+}
 @media (min-width: 768px) {
 
 
