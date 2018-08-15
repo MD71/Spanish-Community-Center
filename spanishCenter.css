@@ -63,7 +63,16 @@ height:300px;
 .sessions { 
   margin-top: 50px;
 }
-
+.HIP_content2 {
+  margin-top:30px;
+}
+.disclaimer{
+  margin-top:16px;
+  font-weight: bold;
+  font-style: italic;
+  font-size:12px;
+  padding-bottom:100px;
+}
 
 
 
