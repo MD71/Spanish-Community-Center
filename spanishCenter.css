@@ -69,6 +69,7 @@ height:300px;
 .HIP_content2 {
   margin-top:30px;
 }
+
 .disclaimer{
   margin-top:16px;
   font-weight: bold;
@@ -113,4 +114,7 @@ height:300px;
 }
 .justify { 
   text-align: justify;
+}
+.HIP_img{
+  margin-top:100px;
 }
