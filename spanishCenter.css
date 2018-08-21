@@ -63,7 +63,7 @@ height:300px;
   margin-top: 20px;
 }
 
-.sessions { 
+.sessions {
   margin-top: 50px;
 }
 .HIP_content2 {
@@ -93,16 +93,6 @@ height:300px;
 
 
 
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 576px) {
 .mission_logo {
   display: none;
@@ -112,9 +102,22 @@ height:300px;
   margin:0 auto;
 
 }
-.justify { 
+.justify {
   text-align: justify;
 }
 .HIP_img{
   margin-top:100px;
+}
+
+@media (min-width: 900px) {
+  .md_banner{
+    display: block;
+    margin:0 auto;
+    width: 70%;
+
+  }
+  .program_Description{
+    
+  }
+
 }
