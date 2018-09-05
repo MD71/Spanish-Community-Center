@@ -106,7 +106,7 @@ height:300px;
   text-align: justify;
 }
 .HIP_img{
-  margin-top:100px;
+margin:0 auto;
 }
 
 @media (min-width: 900px) {

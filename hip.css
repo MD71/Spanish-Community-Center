@@ -40,7 +40,6 @@
   }
 .hip_banner {
   margin:0 auto;
-  border-style: solid;
 }
 .HIP_img{
   margin-bottom: 25px;
@@ -48,4 +47,20 @@
 .parenting_bullets{
   width:70%;
 }
+}
+
+
+@media (min-width: 1200px) {
+.hip_banner {
+  margin: 0 auto;
+}
+.HIP_img{
+  margin-bottom: 25px;
+}
+.para {
+width:500px;}
+}
+.parenting_bullets{
+  width:500px;
+  margin: 40px auto;
 }
