@@ -4,12 +4,8 @@
 }
 
 .sessions {
-  margin-top: 50px;
+  padding-top: 30px;
   margin:auto;
-}
-.HIP_content2 {
-  margin-top:30px;
-  margin:0 auto;
 }
 
 .disclaimer{
@@ -32,11 +28,11 @@
   margin: 0 auto;
 }
 
-
 @media (min-width: 576px) {
   .para {
     margin: 0 auto;
     font-size:20px;
+    padding-bottom: 10px;
   }
 .hip_banner {
   margin:0 auto;
@@ -50,7 +46,7 @@
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
 .hip_banner {
   margin: 0 auto;
 }
@@ -61,6 +57,6 @@
 width:500px;}
 }
 .parenting_bullets{
-  width:500px;
+  widh:500px;
   margin: 40px auto;
 }
